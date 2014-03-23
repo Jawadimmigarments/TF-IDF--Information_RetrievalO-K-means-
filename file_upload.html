@@ -1,0 +1,14 @@
+<html>
+<head>
+<title> File Upload </title>
+</head>
+<body>
+<div id="uploader" style="margin-left:200px; margin-top:200px; background-color:grey; width:400px;" >
+<form enctype="multipart/form-data" id="pdf_submit" action="doc_similarity.php" method="post">
+<label> Document:  </label>
+<input id="pdf" type="file" name="pdf[]" multiple="true">
+</input>
+<input type="submit" value="Upload"/>
+</form>
+</div>
+</body>
